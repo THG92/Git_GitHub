@@ -90,15 +90,19 @@ git diff --staged # Show the difference between stage "Staged" and the last comm
 #
 Configurations for ignoring files:
 -
-echo "gitgitgitgit" > zzzz.log
+echo "gitgitgitgit" > file.log
 #
 mkdir logs # Creating a new folder
 #
-cp zzzz.log logs/ # copy zzzz.log to logs folder
+cp file.log logs/ # copy file.log to logs folder
 #
 cp Newfile2.txt logs/ # The same for Newfile2.txt
 #
 nano .gitignore # Put in from a new line each next command and save (*.log; logs/)
+#
+GitHub 
+-
+git clone 
 
 
 
