@@ -37,7 +37,7 @@ echo "Source file2" > file2.txt
 #
 git status
 #
-git add . | git add * | git add file1.txt # These three commands allow you to add all files or only one(file.txt)
+git add . | git add * | git add file1.txt # These three commands allow you to add all files or only one(file1.txt) P.S// Choose only one of them. "|" - Separator
 #
 git status # Input this to see what happened
 #
