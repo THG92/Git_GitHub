@@ -102,7 +102,9 @@ nano .gitignore # Put in from a new line each next command and save (*.log; logs
 #
 GitHub 
 -
-git clone 
+git clone https://github.com/THG92/JulyPractice.git
+#
+
 
 
 
