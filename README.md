@@ -4,6 +4,7 @@ Tutorial
 git --version
 
 git config --global user.name "Name Sername"
+#
 git config --global user.email "zzzzz@xxxx.yy"
 
 git config -l
