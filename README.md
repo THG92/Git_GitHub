@@ -44,6 +44,7 @@ git status # Input this to see what happened
 git commit -m "My initial commit, this is Version1.0"
 #
 Let's do some editing:
+-
 #
 nano file1.txt # Edit it and save
 #
@@ -77,6 +78,8 @@ How works git diff
 -
 echo "qwertyqwerty" > newfile1.txt
 #
+echo "qwertyqwerty" > newfile2.txt
+#
 git status
 #
 git add .
@@ -87,7 +90,15 @@ git diff --staged # Show the difference between stage "Staged" and the last comm
 #
 Configurations for ignoring files:
 -
-
+echo "gitgitgitgit" > zzzz.log
+#
+mkdir logs # Creating a new folder
+#
+cp zzzz.log logs/ # copy zzzz.log to logs folder
+#
+cp Newfile2.txt logs/ # The same for Newfile2.txt
+#
+nano .gitignore # Put in from a new line each next command (*.log; logs/)
 
 
 
