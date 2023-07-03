@@ -54,6 +54,23 @@ git status
 git add .
 #
 git commit -m "Added file3 and updated file1"
+#
+git log # History of all commits
+#
+git log -1 # Last commit
+#
+git log -1 -p # Shows all changes which were done with this commit
+#
+nano file1.txt # Make some changes to it
+#
+git status
+#
+cat file1.txt
+#
+git checkout -- file1.txt # Cancel all changes
+#
+cat file1.txt
+#
 
 
 
