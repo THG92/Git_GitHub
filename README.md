@@ -43,6 +43,21 @@ git status # Input this to see what happened
 #
 git commit -m "My initial commit, this is Version1.0"
 #
+Let's do some editing:
+#
+nano file1.txt # Edit it and save
+#
+echo "Source file3" > file3.txt # Add third file
+#
+git status
+#
+git add .
+#
+git commit -m "Added file3 and updated file1"
+
+
+
+
 
 
 
