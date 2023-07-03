@@ -38,6 +38,11 @@ echo "Source file2" > file2.txt
 git status
 #
 git add . | git add * | git add file1.txt # These three commands allow you to add all files or only one(file.txt)
+#
+git status # Input this to see what happened
+#
+git commit -m "My initial commit, this is Version1.0"
+#
 
 
 
