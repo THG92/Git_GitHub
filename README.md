@@ -72,7 +72,21 @@ git checkout -- file1.txt # Cancel all changes
 cat file1.txt
 #
 git status
-
+#
+How works git diff
+-
+echo "qwertyqwerty" > newfile1.txt
+#
+git status
+#
+git add .
+#
+git status
+#
+git diff --staged # Show the difference between stage "Staged" and the last commit. This would be written to log after commit.
+#
+Configurations for ignoring files:
+-
 
 
 
