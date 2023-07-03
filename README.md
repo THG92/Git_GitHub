@@ -23,3 +23,13 @@ cd myproject/
 #
 ls
 #
+git init # This command tells git to start watching current directory and record all changes in files
+#
+ls -la # This command will show you .git file
+#
+ls -la .git/ # This command will shows you what .git include
+
+
+
+
+
