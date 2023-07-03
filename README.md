@@ -98,7 +98,7 @@ cp zzzz.log logs/ # copy zzzz.log to logs folder
 #
 cp Newfile2.txt logs/ # The same for Newfile2.txt
 #
-nano .gitignore # Put in from a new line each next command (*.log; logs/)
+nano .gitignore # Put in from a new line each next command and save (*.log; logs/)
 
 
 
