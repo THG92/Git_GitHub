@@ -36,7 +36,8 @@ echo "Source file1" > file1.txt # this command will create a text file with the 
 echo "Source file2" > file2.txt
 #
 git status
-
+#
+git add . | git add * | git add file1.txt # These three commands allow you to add all files or only one(file.txt)
 
 
 
