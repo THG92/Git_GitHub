@@ -54,7 +54,6 @@ git status
 git add .
 #
 git commit -m "Added file3 and updated file1"
--------------------------------------------
 #
 git log # History of all commits
 #
@@ -73,7 +72,7 @@ git checkout -- file1.txt # Cancel all changes
 cat file1.txt
 #
 git status
----------------------------
+
 
 
 
